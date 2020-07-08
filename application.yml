@@ -11,8 +11,8 @@ eureka:
    payment-service:
      endpoints:
        endpoint:
-         url: "http://PAYMENT-SERVICE/payment/doPayment"
+         url: http://PAYMENT-SERVICE/payment/doPayment
   order-service:
     endpoints:
       endpoint:
-        url: "http://ORDER-SERVICE/order/bookOrder"
+        url: http://ORDER-SERVICE/order/bookOrder
