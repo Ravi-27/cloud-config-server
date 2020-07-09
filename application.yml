@@ -9,3 +9,12 @@ spring:
       server:
         git:
           uri: https://github.com/Ravi-27/cloud-config-server 
+          
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost 
